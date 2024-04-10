@@ -1,15 +1,17 @@
 {
   "name": "0x06-unittests_in_js",
   "version": "1.0.0",
-  "description": "my javascripts unittests",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --es-module-specifier-resolution=node 0-calcul.test.js"
+    "test": "mocha '*.test.js'"
   },
-  "author": "Lebene Gbebleou-Sleem",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.2.0"
+  },
   "devDependencies": {
-    "mocha": "^10.4.0",
-    "sinon": "^17.0.1"
+    "chai": "^4.3.7"
   }
 }
